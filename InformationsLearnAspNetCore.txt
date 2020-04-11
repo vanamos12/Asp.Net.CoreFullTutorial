@@ -1,0 +1,161 @@
+A good list of tutorial on pragim. 
+https://www.youtube.com/user/kudvenkat/playlists?view=1&sort=dd
+Search class Library tutorial on youtube next;
+
+Tutorial for beginners 
+https://www.youtube.com/watch?v=4IgC2Q5-yDE&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU
+Asp.net Core framework, open source.
+Asp.net Core MVC
+Asp.net Core identity for Security
+Entity Framework Core for data.
+ 
+Mvc controller returns IACTIONRESULT
+IActionResult (It is an interface)
+	ViewResult
+	JsonResult
+Dependency Injection.
+Testability
+
+Modularity with middleware components.
+Hosted InProcess or OutOfProcess.
+	internal server is kestrel, process dotnet
+	external server is IIS, Nginx, Apache (reverse proxy iis, real web server kestrel)
+metapackage : a group of packages.
+
+extensions methods in C#
+Developer command prompt vs 2019
+6.18 part 9
+
+Configuration Sources
+Files(appsettings.json, appsettings.Development.json) 1
+User secrets 2
+Environment variables 3 
+Command-line arguments 4 dotnet run MyKey="value from command line."
+
+Webhost class
+https://github.com/aspnet/MetaPackages/blob/release/2.2/src/Microsoft.AspNetCore/WebHost.cs
+
+MiddleWare classes get the request pass to the others and deliver the response.
+	Logging middleware
+	authentification middleware
+	StaticFiles middleware
+	MVC middleware
+Lambda expression C#
+Delegate C#
+Terminal middleware (app.Run), a middleware which doesn't call the second middleware.
+Non terminal middleware (app.Use)
+wwwroot Content root folder.
+Part 12 1:41
+
+Developement environments :
+	Development, no mimify css js, developer exception page.
+	Staging, as close as possible to production, mimify css ans js, friendly error page
+	Production, same as staging with maximum security.
+
+Application Layers
+	User Interface Layer : MVC(Model, View, Controller)
+	Business Logic Layer 
+	Data Access Layer 
+Part 16 0:00
+Dependency injection container at Startup.cs : ConfigureSevices.
+Request Pipeline at Startup.cs : Configure.
+Services.AddMvc calls Services.AddMvcCore and integrate json decode service.
+part 18 3:25
+
+MVC Model contains 
+	Employee + EmployeeRepository
+Configure dependency injection 
+	services.addScoped one for each request.
+	services.addTranscient one per all the application. 
+	services.addSingleton just one time.
+ViewBag(dynamic properties), ViewData(dictionary) losely typed view (cast using as).
+strongly typed view model.
+part 23 4:08
+part 25
+ViewModels are also called dto (data, trasfert, object)
+part 28 2:38
+part 29 0:00
+
+Conventionnal Routing
+	"{controller=Home}/{action=Index}/{id?}"
+ and attribute routing. (When it starts by ~ or / or ~/ the controller route is not taken in place)
+	[Route("[controller]/details")]
+part 33 0:00
+
+Tag Helper @addTagHelper, server side components
+part 35 2:47
+@Url.Action("details", "test", new { id=employee.Id })
+@Html.ActionLink("View", "details", "test", new { id=employee.Id })
+<a asp-controller="test" asp-action="details" asp-route-id="@employee.Id">View</a>
+hash value of the image joined on the web server.
+<img class="card-img-top" src="~/images/noimage.jpg" asp-append-version="true" />
+part 39 0:00
+
+Model binding
+part 41 0:00
+
+bind the request data to the controller action method
+	Form Values
+	Route Values
+	Query Strings
+part 42 4:42
+
+Built-in validation attribution
+	RegularExpression
+	Required
+	Range
+	MinLength
+	MaxLength
+	Compare
+part 44 0:00
+
+Entity Framework is an ORM(Object realtionnal mapper)
+	Microsoft's official data access platform.
+Employee, Department => domain classes.
+Entity Framework supports : 
+	1 - Code first approach (We first create our domains & DBContext classes), 
+	2 - Database first approach (we create the database first).
+Database provider is like a driver between EntityFramework and the database. 
+part 46 0:00
+
+A single Layer web application
+A multi Layer web application
+	Presentation Layer
+	Business logic Layer
+	Data Access Layer, Entity Framework is asked in data access project
+		Microsoft.EntityFrameworkCore.SqlServer
+		Microsoft.EntityFrameworkCore.Relational
+		Microsoft.EntityFrameworkCore 
+Database providers for visual Studio => https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli
+Create New Project => ClassLibrary.
+When we delete a project in visual studio, we ought also to delete it in the file system.
+services.
+	AddDbContext, create an instance at each time
+	AddDbContextPool, check if an instance exist, use the existed instance and if not create a new
+Repository pattern is an abstract of the data access layer.
+part 49 1:40 Repository Pattern
+part 50 0:00 Entity Framework Core migration
+Migration keeps the database schema and application model classes in sync.
+View=>SQL Object Explorer
+View=>Other Windows=>Package Manager Console
+	Add-Migration InitialMigration
+		Model already created
+		AppDbContext already created
+		Connection string put in place
+	Update-Database InitialMigration
+		At each modification of the database, we execute Add-Migration and Update-Database;
+part 52 0:00
+	To remove the last migration Remove-Migration
+	It remove one migration at a time and a migration which is not applied to database.
+Update-Database precedentMigration    undo the last migrations in the database and then we use Remove-Migration 
+					to remove the last migrations.
+Update-Database do the last migration created.
+part 53 0:00
+part 53 20:00
+commande try catch dans un foreach pour empecher que tout ne plante dans le for each
+Trouver un moyen pour que l'on soit informe lorsque le sms ne part pas.
+Razor pages Tutorial
+https://www.youtube.com/watch?v=3F9SpUYTB6Y&list=PL6n9fhu94yhX6J31qad0wSO1N_rgGbOPV
+
+Ecommerce application 
+https://www.youtube.com/watch?v=Vv7nx1T1yvM&list=PL2UwEEhB4YafVIdKCBRjTyryET2EHgryp

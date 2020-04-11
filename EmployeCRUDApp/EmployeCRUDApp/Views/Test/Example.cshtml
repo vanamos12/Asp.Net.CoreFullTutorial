@@ -1,0 +1,32 @@
+﻿@model TestDetailsViewModel
+@{ 
+    ViewBag.PageTitle = "An employee";
+    var photoPath = "~/img/" + (Model.Employee.PhotoPath ?? "VenteFlash1.jpg")
+}
+    
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="card-title">@Model.PageTitle</h1>
+                </div>
+                <div class="card-body">
+                    <div class="card-img">
+                        <img src="@photoPath" alt="Profile Photo"/>
+                    </div>
+                    <div>
+                        @Model.Employee.Name
+                    </div>
+
+                    <div>
+                        @Model.Employee.Departement
+                    </div>
+
+                    <div>
+                        @Model.Employee.Email
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-primary" asp-controller="home" asp-action="index">Back</a>
+                </div>
+
+            </div>
+        

@@ -1,0 +1,9 @@
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\bin\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.deps.json
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\bin\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.dll
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\obj\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.csprojAssemblyReference.cache
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\obj\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.AssemblyInfoInputs.cache
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\obj\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.AssemblyInfo.cs
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\bin\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.pdb
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\obj\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\obj\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.dll
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp.DataAccess\obj\Debug\netstandard2.0\EmployeCRUDApp.DataAccess.pdb

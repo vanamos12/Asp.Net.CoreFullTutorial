@@ -1,0 +1,39 @@
+﻿@model IEnumerable<EmployeeModel>
+
+@{
+    ViewBag.Title = "Test du titre de l'onglet";
+}
+
+<table class="table-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Deparment</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Name</td>
+                <td>@employee.Departement</td>
+                <td>@employee.Email</td>
+                <td>
+                    <a asp-controller="test" asp-action="details" asp-route-id="@employee.Id" class="btn btn-primary m-1">Display</a>
+                    <a class="btn btn-primary m-1" href="@Url.Action("details", "test", new { id=employee.Id })">View</a>
+                    <a class="btn btn-primary m-1" href="#">Edit</a>
+                    <a class="btn btn-danger m-1" href="#">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<img src="~/img/VenteFlash1.jpg" alt="Vente flash"/>
+
+@section Scripts {
+    <script src="~/js/CustomScript.js"></script>
+}

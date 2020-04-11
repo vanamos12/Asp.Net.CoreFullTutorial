@@ -1,0 +1,22 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>@ViewData["pageTitle"]</h1>
+
+    @{ 
+        var employee = ViewData["employee"] as EmployeCRUDApp.Models.EmployeeModel;
+    }
+
+    <div>
+        @employee.Name
+    </div>
+    <div>
+        @employee.Departement
+    </div>
+    <div>
+        @employee.Email
+    </div>
+</body>
+</html>
