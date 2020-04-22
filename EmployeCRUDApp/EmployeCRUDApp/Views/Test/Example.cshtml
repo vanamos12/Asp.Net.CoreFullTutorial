@@ -1,7 +1,7 @@
 ﻿@model TestDetailsViewModel
 @{ 
     ViewBag.PageTitle = "An employee";
-    var photoPath = "~/img/" + (Model.Employee.PhotoPath ?? "VenteFlash1.jpg")
+    var photoPath = "~/img/" + (Model.Employee.PhotoPath ?? "VenteFlash1.jpg");
 }
     
             <div class="card">
@@ -26,6 +26,8 @@
                 </div>
                 <div class="card-footer">
                     <a class="btn btn-primary" asp-controller="home" asp-action="index">Back</a>
+                    <a class="btn btn-primary" asp-controller="home" asp-action="edit"
+                       asp-route-id="@Model.Employee.Id">Edit</a>
                 </div>
 
             </div>

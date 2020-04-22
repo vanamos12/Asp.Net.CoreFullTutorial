@@ -152,6 +152,14 @@ Update-Database precedentMigration    undo the last migrations in the database a
 Update-Database do the last migration created.
 part 53 0:00
 part 53 20:00
+part 55 7:42
+Class library Asp.net Core.
+https://www.youtube.com/watch?v=emUiMd1zRrY
+http:www.halvorsen.blog
+class library allow to share code between people.
+Add existing projects(class Library Project), Add reference to the project, 
+
+
 commande try catch dans un foreach pour empecher que tout ne plante dans le for each
 Trouver un moyen pour que l'on soit informe lorsque le sms ne part pas.
 Razor pages Tutorial

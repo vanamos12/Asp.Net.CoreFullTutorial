@@ -25,7 +25,8 @@
                 <td>
                     <a asp-controller="test" asp-action="details" asp-route-id="@employee.Id" class="btn btn-primary m-1">Display</a>
                     <a class="btn btn-primary m-1" href="@Url.Action("details", "test", new { id=employee.Id })">View</a>
-                    <a class="btn btn-primary m-1" href="#">Edit</a>
+                    <a class="btn btn-primary m-1" asp-controller="home"
+                       asp-action="edit" asp-route-id="@employee.Id">Edit</a>
                     <a class="btn btn-danger m-1" href="#">Delete</a>
                 </td>
             </tr>

@@ -20,5 +20,6 @@ namespace EmployeCRUDApp.ViewModels
         [Display(Name = "Office Email")]
         public string Email { get; set; }
         public IFormFile Photo { get; set; }
+        //public List<IFormFile> Photos { get; set; }
     }
 }
