@@ -33,7 +33,13 @@ namespace EmployeCRUDApp.Controllers
         
         public ViewResult Details(int? id)
         {
-            EmployeeModel employee = _employeeRepository.GetEmployee(1);
+            EmployeeModel employee = _employeeRepository.GetEmployee(id.Value);
+
+            if (employee == null)
+            {
+                Response.StatusCode = 404;
+                return View("EmployeeNotFound", id.Value);
+            }
             //return View(employee);
             //return View("Test");
             //return View("Test", employee);
@@ -46,7 +52,7 @@ namespace EmployeCRUDApp.Controllers
             TestDetailsViewModel testDetailsViewModel = new TestDetailsViewModel()
             {
                 PageTitle = "Mon titre",
-                Employee = _employeeRepository.GetEmployee(id??1)
+                Employee = employee
             };
 
             return View("Example", testDetailsViewModel);

@@ -46,6 +46,12 @@ namespace EmployeCRUDApp
                 };
                 app.UseDeveloperExceptionPage(developerExceptionPageOptions);
             }
+            else
+            {
+                //app.UseStatusCodePages();
+                //app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+            }
 
             /*app.Use(async (context, next) =>
             {
@@ -83,14 +89,14 @@ namespace EmployeCRUDApp
             });
             //app.UseMvc();
 
-            app.Run(async (context) =>
+            /*app.Run(async (context) =>
             {
                 //await context.Response.WriteAsync(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
                 //throw new Exception("Some processing error occured");
                 //await context.Response.WriteAsync("Name of the environment : " + env.EnvironmentName + " " + env.ContentRootPath);
                 await context.Response.WriteAsync("Hello World");
                 //logger.LogInformation("Mw3 : Request handled and response produced.");
-            });
+            });*/
         }
     }
 }

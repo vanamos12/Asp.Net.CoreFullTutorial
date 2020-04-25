@@ -153,6 +153,16 @@ Update-Database do the last migration created.
 part 53 0:00
 part 53 20:00
 part 55 7:42
+We need to use using in order that the variable is only defined during a certain time
+	Opening of a file
+part 57 0:00
+404 Errors : 
+	1-Resource with the specified ID does not exist
+	2-The URL does not match any route.
+		UseStatusCodePages
+		UseStatusCodePagesWithRedirects
+		UseStatusCodePagesWithReExecute
+
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
 http:www.halvorsen.blog

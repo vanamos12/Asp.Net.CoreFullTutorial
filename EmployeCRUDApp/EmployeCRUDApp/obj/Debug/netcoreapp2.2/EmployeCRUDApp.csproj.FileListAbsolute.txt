@@ -35,3 +35,6 @@ D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDA
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\bin\Debug\netcoreapp2.2\libman.json
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Create.cshtml.g.cs
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Edit.cshtml.g.cs
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Test\EmployeeNotFound.cshtml.g.cs
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.cshtml.g.cs
