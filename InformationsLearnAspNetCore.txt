@@ -162,7 +162,29 @@ part 57 0:00
 		UseStatusCodePages
 		UseStatusCodePagesWithRedirects
 		UseStatusCodePagesWithReExecute
+part 59 0:00
+Status Code 302 : the location of the url has temporaly changed.
 
+Tools=>Options=>Debugging=>Output Window=>Turn off messages
+
+To run a project using cmd:
+	1- open cmd in administrator mode
+	2- go to the folder of the project
+	3- execute dotnet run
+
+Logging providers stores or displays Logs
+	1- Console Logging Provider
+		Displays logs on the Console
+	2- Debug Logging Provider
+		Displays logs on the Debug window in Visual Studio
+	3- EventSource
+	4- EventLog
+	5- TraceSource
+	6- AzureAppServicesFile
+	7- AzureAppServicesBlob
+	8- ApplicationInsights
+Part 62
+Part 63 0:00
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
 http:www.halvorsen.blog

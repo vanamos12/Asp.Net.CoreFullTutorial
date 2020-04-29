@@ -33,6 +33,7 @@ namespace EmployeCRUDApp.Controllers
         
         public ViewResult Details(int? id)
         {
+            throw new Exception("Error in details view");
             EmployeeModel employee = _employeeRepository.GetEmployee(id.Value);
 
             if (employee == null)

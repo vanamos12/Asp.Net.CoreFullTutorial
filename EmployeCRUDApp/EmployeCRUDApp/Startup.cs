@@ -51,6 +51,7 @@ namespace EmployeCRUDApp
                 //app.UseStatusCodePages();
                 //app.UseStatusCodePagesWithRedirects("/Error/{0}");
                 app.UseStatusCodePagesWithReExecute("/Error/{0}");
+                app.UseExceptionHandler("/Error");
             }
 
             /*app.Use(async (context, next) =>
