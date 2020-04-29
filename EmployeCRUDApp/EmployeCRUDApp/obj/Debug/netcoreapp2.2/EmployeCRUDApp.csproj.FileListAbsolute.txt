@@ -26,7 +26,6 @@ D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDA
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Test\Index.cshtml.g.cs
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\MyViews\myviews.cshtml.g.cs
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Test\Strongly.cshtml.g.cs
-D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\EmployeCRUDApp.csproj.CoreCompileInputs.cache
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Test\Example.cshtml.g.cs
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\EmployeCRUDApp.genruntimeconfig.cache
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
@@ -39,3 +38,5 @@ D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDA
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Test\EmployeeNotFound.cshtml.g.cs
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.cshtml.g.cs
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\EmployeCRUDApp.csproj.CoreCompileInputs.cache
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\bin\Debug\netcoreapp2.2\nlog.config

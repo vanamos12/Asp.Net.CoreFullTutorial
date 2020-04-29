@@ -184,7 +184,10 @@ Logging providers stores or displays Logs
 	7- AzureAppServicesBlob
 	8- ApplicationInsights
 Part 62
-Part 63 0:00
+Part 63 0:00 Logging into a file using N-Log.
+	NLog.Web.AspNetCore
+Part 64 ASP NET Core LogLevel configuration.
+
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
 http:www.halvorsen.blog
