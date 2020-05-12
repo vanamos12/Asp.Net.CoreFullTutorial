@@ -1,6 +1,7 @@
 ﻿using EmployeCRUDApp.Models;
 using EmployeCRUDApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,11 @@ namespace EmployeCRUDApp.Controllers
     public class TestController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
+        private readonly ILogger _logger;
 
-        public TestController(IEmployeeRepository employeeRepository)
+        public TestController(IEmployeeRepository employeeRepository, ILogger<TestController> logger)
         {
+            _logger = logger;
             _employeeRepository = employeeRepository;
         }
         public string Index()
@@ -33,7 +36,13 @@ namespace EmployeCRUDApp.Controllers
         
         public ViewResult Details(int? id)
         {
-            throw new Exception("Error in details view");
+            //throw new Exception("Error in details view");
+            _logger.LogTrace("Trace Log");
+            _logger.LogDebug("Debug Log");
+            _logger.LogInformation("Information Log");
+            _logger.LogWarning("Warning Log");
+            _logger.LogError("Error Log");
+            _logger.LogCritical("Critical Log");
             EmployeeModel employee = _employeeRepository.GetEmployee(id.Value);
 
             if (employee == null)
