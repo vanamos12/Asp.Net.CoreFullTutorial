@@ -199,6 +199,15 @@ part 64 2:23
 The default category is the name of our project.
 We can display loglevels by categories or by providers.
 part 65 0:00 Core identity tutorials
+
+ASP.NET Core identity 
+	Manage user accounts.
+	Account confirmation
+	Authentification & Authorization
+	Password Recovery
+	Two factor authentification with SMS.
+part 66 0:00 Register new user using asp.net core identity
+ 
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
 http:www.halvorsen.blog
