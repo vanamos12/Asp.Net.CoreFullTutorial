@@ -207,7 +207,8 @@ ASP.NET Core identity
 	Password Recovery
 	Two factor authentification with SMS.
 part 66 0:00 Register new user using asp.net core identity
- 
+part 67 0:00 Code Identity User Manager and SignIn Manager
+
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
 http:www.halvorsen.blog

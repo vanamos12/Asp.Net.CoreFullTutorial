@@ -40,3 +40,4 @@ D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDA
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\EmployeCRUDApp.csproj.CoreCompileInputs.cache
 D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\bin\Debug\netcoreapp2.2\nlog.config
+D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
