@@ -209,6 +209,11 @@ ASP.NET Core identity
 part 66 0:00 Register new user using asp.net core identity
 part 67 0:00 Code Identity User Manager and SignIn Manager
 
+Two services of ASP.Net Core
+	User Manager
+	Sign In Manager
+
+part 68 0:00
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
 http:www.halvorsen.blog
