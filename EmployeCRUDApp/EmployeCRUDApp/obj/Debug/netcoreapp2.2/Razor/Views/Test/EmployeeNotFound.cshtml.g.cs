@@ -23,8 +23,13 @@ using EmployeCRUDApp.ViewModels;
 
 #line default
 #line hidden
+#line 3 "D:\FoldersHermann\IZIWAY\NopCommerce\LearnAspNetCore\EmployeCRUDApp\EmployeCRUDApp\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3cd90f211c8e789dc9f07f10fd43b8241f71b3a4", @"/Views/Test/EmployeeNotFound.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"21c323f1cf32a82047b88542a2bf2fadf6240210", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"872ba78a5b3916ee9468f97c6b101a8c9482c026", @"/Views/_ViewImports.cshtml")]
     public class Views_Test_EmployeeNotFound : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<int>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -75,7 +80,7 @@ using EmployeCRUDApp.ViewModels;
             WriteLiteral(" cannot be found \r\n    </h5>\r\n</div>\r\n\r\n");
             EndContext();
             BeginContext(237, 131, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cd90f211c8e789dc9f07f10fd43b8241f71b3a45172", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cd90f211c8e789dc9f07f10fd43b8241f71b3a45361", async() => {
                 BeginContext(313, 51, true);
                 WriteLiteral("\r\n    Click here to see the list of all employees\r\n");
                 EndContext();

@@ -31,6 +31,11 @@ namespace EmployeCRUDApp
             services.AddMvc().AddXmlDataContractSerializerFormatters();
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>();
+            services.Configure<IdentityOptions>(options=> {
+                options.Password.RequiredLength = 7;
+                options.Password.RequiredUniqueChars = 3;
+                options.Password.RequireNonAlphanumeric = false;
+            });
             //services.AddMvcCore();
             //services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
             //services.AddScoped<IEmployeeRepository, MockEmployeeRepository>();
