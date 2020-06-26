@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EmployeCRUDApp.Utilities;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -10,6 +12,9 @@ namespace EmployeCRUDApp.ViewModels
     {
         [Required]
         [EmailAddress]
+        [Remote(action: "IsEmailInUse", controller:"account")]
+        [ValidEmailDomain(allowedDomain: "pragimtech.com", 
+            ErrorMessage = " Email domain must be pragimtech.com")]
         public string Email { get; set; }
 
         [Required]
@@ -21,5 +26,8 @@ namespace EmployeCRUDApp.ViewModels
         [Compare("Password",
             ErrorMessage ="Password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        public string City { get; set; }
     }
 }

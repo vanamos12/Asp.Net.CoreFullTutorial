@@ -221,8 +221,18 @@ Password : RolandE12*
 
 part 69 5:34
 A persistent cookie or a session cookie.
+	persistent cookie : not deleted when the browser is close
+	session cookie : deleted when the browser is close.
 
 part 70 7:34
+part 71 0:00
+Authorization is identifying what the user can and cannot do.
+[Authorize] attribute controls Authorization.
+Open redirect Vulnerability, use LocalRedirect 
+part 74 0:00
+part 77 0:00
+part 79 0:00
+
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
 http:www.halvorsen.blog

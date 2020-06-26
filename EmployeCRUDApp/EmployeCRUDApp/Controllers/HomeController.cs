@@ -5,13 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using EmployeCRUDApp.Models;
 using EmployeCRUDApp.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeCRUDApp.Controllers
 {
-    
+    [Authorize]
     public class HomeController : Controller
     {
         public IEmployeeRepository _employeeRepository;
@@ -22,12 +23,15 @@ namespace EmployeCRUDApp.Controllers
             _employeeRepository = employeeRepository;
             _hostingEnvironment = hostingEnvironment;
         }
+
+        [AllowAnonymous]
         public IActionResult Details()
         {
             //return View();
             return Json("Hello World from MVC");
         }
-        
+
+        [AllowAnonymous]
         public ViewResult Index()
         {
             var model = _employeeRepository.GetAllEmployees();
