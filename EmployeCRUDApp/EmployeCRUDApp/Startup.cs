@@ -43,11 +43,28 @@ namespace EmployeCRUDApp
                 options.Password.RequiredUniqueChars = 3;
                 options.Password.RequireNonAlphanumeric = false;
             });
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
+            });
             //services.AddMvcCore();
             //services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
             //services.AddScoped<IEmployeeRepository, MockEmployeeRepository>();
             //services.AddTransient<IEmployeeRepository, MockEmployeeRepository>();
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
+            services.AddAuthorization(options => {
+                options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Delete Role"));
+
+                //options.AddPolicy("EditRolePolicy",
+                //    policy => policy.RequireClaim("Edit Role", "true"));
+                options.AddPolicy("EditRolePolicy", policy => policy.RequireAssertion(context => 
+                (context.User.IsInRole("Admin") && context.User.HasClaim(claim=>claim.Type=="Edit Role" && claim.Value=="true")) 
+                || context.User.IsInRole("Super Admin")));
+
+                options.AddPolicy("AdminRolePolicy",
+                    policy => policy.RequireRole("Admin"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

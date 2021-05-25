@@ -231,7 +231,23 @@ Authorization is identifying what the user can and cannot do.
 Open redirect Vulnerability, use LocalRedirect 
 part 74 0:00
 part 77 0:00
-part 79 0:00
+part 79 5:00
+part 81 0:00
+part 83 5:55
+part 84 3:00
+part 86 0:00
+part 90 0:00
+part 91 2:58
+part 93 4:33
+part 93 12:23
+part 94 0:19
+part 95 0:05
+part 96 4:29
+part 98 4:08
+part 101 0:00
+
+We do not alter values of the server with Get method.
+Sometimes we need to reconnect to have our admin roles.
 
 Class library Asp.net Core.
 https://www.youtube.com/watch?v=emUiMd1zRrY
